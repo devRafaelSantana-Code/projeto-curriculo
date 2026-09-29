@@ -16,6 +16,14 @@ A página reúne informações como dados de contacto, objetivo profissional, fo
 
 ---
 
+## 🌐 Projeto Online
+
+A aplicação está disponível para acesso através da Vercel:
+
+🔗 **[Aceder ao Currículo Profissional Web](https://projeto-curriculo-psi.vercel.app/)**
+
+---
+
 ## 🛠️ Detalhes Técnicos
 
 ### HTML5 Semântico
