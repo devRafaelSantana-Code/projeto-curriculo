@@ -8,7 +8,7 @@
 
 ## 📌 Sobre o Projeto
 
-O **Currículo Profissional Web** é uma interface web desenvolvida no formato de um **currículo digital (Web Resume)**, apresentando informações profissionais e académicas de forma organizada, responsiva e visualmente estruturada.
+O **Currículo Profissional Web** é uma interface desenvolvida no formato de um **currículo digital (Web Resume)**, apresentando informações profissionais e académicas de forma organizada, responsiva e visualmente estruturada.
 
 O projeto foi desenvolvido a partir de desafios práticos propostos pela **ProgramadorBR**, com o objetivo de consolidar fundamentos de desenvolvimento web utilizando **HTML5 e CSS3**.
 
@@ -26,17 +26,17 @@ A aplicação está disponível para acesso através da Vercel:
 
 ## 🛠️ Detalhes Técnicos
 
-### HTML5 Semântico
+### 🧱 Estrutura HTML5
 
-A estrutura utiliza elementos HTML5 de forma organizada, com destaque para o elemento `<main>` como conteúdo principal da página.
+A estrutura da página utiliza elementos HTML5 de forma organizada, com destaque para o elemento `<main>` como conteúdo principal da aplicação.
 
-As informações são distribuídas através de títulos, parágrafos, links, listas e blocos de conteúdo, proporcionando uma estrutura simples e adequada para um currículo digital.
+As informações são distribuídas através de títulos, parágrafos, links, listas e blocos de conteúdo, criando uma estrutura simples e adequada para um currículo digital.
 
 ### 🎯 Organização com Flexbox
 
-O **CSS Flexbox** é utilizado para organizar os conteúdos relacionados à formação académica e experiência profissional.
+O **CSS Flexbox** é utilizado para organizar os conteúdos relacionados à formação académica e à experiência profissional.
 
-A utilização de Flexbox permite criar layouts flexíveis e adaptar a disposição dos elementos de acordo com o espaço disponível.
+A utilização de Flexbox permite criar layouts flexíveis, facilitando a disposição dos elementos e a adaptação do conteúdo de acordo com o espaço disponível.
 
 ### 🎨 Componentes Visuais
 
@@ -45,33 +45,33 @@ A interface utiliza diferentes recursos de CSS para melhorar a apresentação e 
 - `border-left` para destacar blocos de informação;
 - `border-radius` para suavizar os cantos dos componentes;
 - `box-shadow` para criar profundidade visual;
-- espaçamentos para melhorar a organização;
+- espaçamentos para melhorar a organização do conteúdo;
 - tipografia para facilitar a leitura;
-- imagens para complementar as informações profissionais e académicas.
+- imagens para complementar as informações académicas e profissionais.
 
 ### 🏷️ Lista de Competências
 
 As competências técnicas são apresentadas através de uma lista HTML utilizando o elemento `<ul>`.
 
-O conteúdo pode ser estilizado posteriormente através de Flexbox para transformar as competências em etiquetas (_badges_) responsivas.
+Essa estrutura permite organizar as habilidades de forma semântica e possibilita futuras melhorias visuais, como a transformação das competências em etiquetas (_badges_) responsivas através de CSS.
 
 ### 📱 Responsividade
 
 O projeto utiliza **Media Queries** para adaptar a interface a diferentes tamanhos de ecrã.
 
-Em dispositivos menores, elementos organizados horizontalmente podem assumir uma disposição vertical através de:
+Em dispositivos menores, elementos organizados horizontalmente podem assumir uma disposição vertical através de propriedades como:
 
 ```css
 flex-direction: column;
 ```
 
-Essa abordagem permite manter uma experiência de leitura adequada em computadores, tablets e dispositivos móveis.
+Essa abordagem contribui para manter uma experiência de leitura adequada em computadores, tablets e dispositivos móveis.
 
 ---
 
 ## 💻 Como Executar o Projeto Localmente
 
-Por ser uma aplicação web estática desenvolvida com **HTML5 e CSS3**, o projeto não necessita de dependências ou processos de compilação.
+Por ser uma aplicação web estática desenvolvida com **HTML5 e CSS3**, o projeto não necessita de dependências externas ou processos de compilação.
 
 ### 1. Clonar o repositório
 
@@ -103,9 +103,9 @@ projeto-curriculo/
 ├── README.md
 │
 └── images/
-    ├── engenharia-computacao.jpg
-    ├── mercado-pago-app.jpg
-    └── rocketseat.png
+    ├── logo-computação.jpg
+    ├── logo-mercado-pago.jpg
+    └── logo-rocketseat.png
 ```
 
 A pasta `images/` centraliza os recursos visuais utilizados pela página, mantendo a estrutura do projeto organizada e facilitando a manutenção dos caminhos dos ficheiros.
@@ -138,7 +138,7 @@ A pasta `images/` centraliza os recursos visuais utilizados pela página, manten
 
 ## ⭐ Objetivo
 
-Este projeto foi desenvolvido como parte do processo de aprendizagem e prática de desenvolvimento web, com o objetivo de consolidar conhecimentos de **HTML5, CSS3, Flexbox e desenvolvimento responsivo** através da construção de uma aplicação web real.
+Este projeto foi desenvolvido como parte do processo de aprendizagem e prática de desenvolvimento web, com o objetivo de consolidar conhecimentos de **HTML5, CSS3, Flexbox e desenvolvimento de interfaces responsivas** através da construção de uma aplicação web real.
 
 <p align="center">
   Projeto desenvolvido para fins educacionais e para consolidação de conhecimentos em HTML5, CSS3, CSS Grid, Flexbox e desenvolvimento de interfaces responsivas.
